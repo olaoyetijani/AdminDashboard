@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home";
-import './app.css'
+import './app.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import UserList from "./pages/userlist/UserList";
 import User from "./pages/user/User";
