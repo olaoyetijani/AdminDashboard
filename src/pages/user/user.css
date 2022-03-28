@@ -149,3 +149,8 @@
   color: white;
   font-weight: 600;
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

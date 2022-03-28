@@ -129,3 +129,8 @@
   font-family: 600;
   cursor: pointer;
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -11,7 +11,7 @@ export default function Product() {
     <div className='product'>
       <div className="productTitleContainer">
         <h1 className="productTitle">Product</h1>
-        <Link to={"/NewProduct"}>
+        <Link to={"/NewProduct"} className="link">
           <button className="productAddButton">Create</button>
         </Link>
       </div>

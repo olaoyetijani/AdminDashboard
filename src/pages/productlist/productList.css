@@ -29,3 +29,8 @@
   color: red;
   cursor: pointer;
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

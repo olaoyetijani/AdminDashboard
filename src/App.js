@@ -2,7 +2,6 @@ import React from "react";
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home";
-import './app.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import UserList from "./pages/userlist/UserList";
 import User from "./pages/user/User";
@@ -16,7 +15,7 @@ function App() {
   return (
     <Router>
       <Topbar />
-      <div className="container">
+      <div style={{display: "flex", marginTop: "10px"}}>
         <Sidebar />
         <Routes>
           <Route exact path="/" element={<Home />} /> 
